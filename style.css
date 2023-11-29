@@ -101,6 +101,14 @@ body * {
   transition: outline 0.4s;
 }
 
+#switch:focus {
+  outline-style: none;
+}
+
+#switch button:focus {
+  outline-style: none;
+}
+
 .light #switch button {
   animation: slide-in 0.4s forwards;
 }
